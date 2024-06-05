@@ -3679,6 +3679,26 @@
     ]
   },
   {
+    "name": "Aniyomi: AnimeQ",
+    "pkg": "eu.kanade.tachiyomi.animeextension.pt.animeq",
+    "apk": "aniyomi-pt.animeq-v14.1.apk",
+    "lang": "pt-BR",
+    "code": 1,
+    "version": "14.1",
+    "nsfw": 1,
+    "hasReadme": 0,
+    "hasChangelog": 0,
+    "sources": [
+      {
+        "name": "AnimeQ",
+        "lang": "pt-BR",
+        "id": "3666901064696818585",
+        "baseUrl": "https://animeq.blog",
+        "versionId": 1
+      }
+    ]
+  },
+  {
     "name": "Aniyomi: Animes CX",
     "pkg": "eu.kanade.tachiyomi.animeextension.pt.animescx",
     "apk": "aniyomi-pt.animescx-v14.1.apk",
