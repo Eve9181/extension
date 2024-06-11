@@ -22,15 +22,17 @@ import org.jsoup.nodes.Element
 import uy.kohesive.injekt.Injekt
 import uy.kohesive.injekt.api.get
 
-class AllMovies : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
+class AnyMovie : ConfigurableAnimeSource, ParsedAnimeHttpSource() {
 
-    override val name = "AllMoviesForYou"
+    override val name = "AnyMovie"
 
-    override val baseUrl = "https://allmoviesforyou.net"
+    override val baseUrl = "https://anymovie.cc"
 
     override val lang = "en"
 
     override val supportsLatest = false
+
+    override val id = 1135341941497249155
 
     private val preferences: SharedPreferences by lazy {
         Injekt.get<Application>().getSharedPreferences("source_$id", 0x0000)
